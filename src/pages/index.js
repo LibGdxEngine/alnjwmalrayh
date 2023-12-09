@@ -30,16 +30,16 @@ const Header = ({isOpen, setIsOpen}) => {
 
         <ul className={` flex-row space-x-6 items-center justify-center hidden lg:flex`}>
             <li>
-                <a href={`#home`} className="text-xl">Home</a>
+                <a href={"#home"} className="text-xl">Home</a>
             </li>
             <li>
-                <a href={`#about`} className="text-xl">About Us</a>
+                <a href={"#about"} className="text-xl">About Us</a>
             </li>
             <li>
-                <a href={`#services`} className="text-xl">Our Services</a>
+                <a href={"#services"} className="text-xl">Our Services</a>
             </li>
             <li>
-                <a href={`#contact`} className="text-xl">Contact Us</a>
+                <a href={"#contact"} className="text-xl">Contact Us</a>
             </li>
         </ul>
         <div className="md:hidden flex items-center">
@@ -73,7 +73,7 @@ const HomePage = () => {
         </button>
         <p className="text-start text-2xl mt-10 font-bold px-10 lg:hidden">
             ALNJWM ALRAYH COMMERCIAL BROKERS EST is designed to provide specialized, proficient, and
-            thorough services specifically designed to meet every client's particular need and interest.
+            thorough services specifically designed to meet every client&apos;s particular need and interest.
         </p>
 
     </div>;
