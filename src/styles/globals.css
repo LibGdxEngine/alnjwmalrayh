@@ -15,6 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -25,3 +28,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+
+
+.custom-gradient {
+  background-image: linear-gradient(to bottom, #ffffff 5%, #383fc4 40%);
+}
+
+
